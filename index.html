@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+  <title>QR Code Generator</title>
+</head>
+<body class="bg-royalblue">
+
+  <div class="container my-3">
+    <div class="row">
+      <div class="col-md-8 mx-auto">
+
+        <div class="bg-white p-4 rounded my-3">
+          <div class="bg-primary bg-gradient p-4 rounded mb-3">
+            <h1 class="fw-normal text-white">QR Code Generator</h1>
+            <p class="fw-light text-light fs-6">
+              sebuah program dengan nama QR Code Generator yang dibuat dengan bahasa pemrograman javascript. dimana program ini akan mengkonversikan value dari input menjadi sebuah QR Code
+            </p>
+          </div>
+          <div class="d-flex flex-column">
+            <div class="input-group">
+              <input type="text" class="form-control input p-3" placeholder="Enter text or URL" autocomplete="off">
+            </div>
+            <button class="btn btn-outline-primary submit d-block my-3 p-3">Create QR Code</button>
+          </div>
+          <div class="card d-none">
+            <div class="card-body p-4">
+              <div class="d-flex justify-content-center align-items-center">
+                <img src="" alt="image" class="image">
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
