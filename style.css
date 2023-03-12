@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow-y: scroll;
+  background: #f4f7fe;
+}
+
+.frame {
+  position: relative;
+  width: 100%;
+  height: 280px;
+  background: royalblue;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.frame .image {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
