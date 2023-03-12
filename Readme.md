@@ -35,4 +35,4 @@ git clone https://github.com/candradwicahyo/QR-code-generator.git
 
 ![preview](https://github.com/candradwicahyo/QR-code-generator/blob/master/image.jpg)
 
-[tekan link ini](https://candradwicahyo.github.io/QR-code-generator)
+[tekan link ini](https://candradwicahyo.github.io/QR-code-generator) untuk mencoba demo
